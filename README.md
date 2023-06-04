@@ -47,11 +47,11 @@ bootstrap--> style HTML pages
 
 ## Developed by: ##
 
-**Tamar Berman | Tamar3242643@gmail.com 
-**
+**Tamar Berman** | Tamar3242643@gmail.com 
 
-**FullStack Developer:)
-**
+
+FullStack Developer:)
+
 
 
 
