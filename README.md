@@ -11,11 +11,11 @@ Advanced Python.
 
 ## Libraries: ##
 
-Flask
-Pandas
-Re
-CSV
-werkzeug.security
+Flask | 
+Pandas | 
+Re | 
+CSV | 
+werkzeug.security | 
 and so on..
 
 ## How to use: ##
