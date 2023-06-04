@@ -45,9 +45,13 @@ flask_login--> access, login, logout, signup
 bootstrap--> style HTML pages
 
 
-**Developed by: Tamar Berman | Tamar3242643@gmail.com 
-FullStack Developer:)**
+## Developed by: ##
 
+**Tamar Berman | Tamar3242643@gmail.com 
+**
+
+**FullStack Developer:)
+**
 
 
 
