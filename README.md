@@ -1,11 +1,14 @@
 **Notes**
+
 A site for personal notes.
 Writing, viewing and deleting notes. Viewing the history of notes written (including those that have been deleted), an administrator can view the history of all users.
 Includes full authentication, login/registration and logout. Different access rights for certain pages, for certain users.
 
 **Language:**
+
 Advanced Python.
 **Libraries:** 
+
 Flask
 Pandas
 Re
@@ -14,6 +17,7 @@ werkzeug.security
 and so on..
 
 **How to use:**
+
 when yoou get into the site, you have no access to anything except Log-in and Sign-up
 you are right away nevigated to the log-in page
 if your email doesnot exists you are nevigated to sign-up
@@ -31,8 +35,8 @@ CSV--> creating a CSV file first time
 flask_login--> access, login, logout, signup
 bootstrap--> style HTML pages
 
-Developed by: Tamar Berman | Tamar3242643@gmail.com 
-FullStack Developer:)
+**Developed by: Tamar Berman | Tamar3242643@gmail.com 
+FullStack Developer:)**
 
 
 
