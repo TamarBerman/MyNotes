@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block title %} History {% endblock %}
+
+{% block content %}
+<!--הגדרת כותרת לעמוד- אם הוא מנהל שצופה בכל היוזרים- כותרת שונה-->
+{% if manager %}
+{% set head = 'All Users History' %}
+{% else %}
+{% set head = 'My History' %}
+{% endif %}
+
+<h1 align="center"> {{head}} (including deleted notes)</h1>
+
+{% with df = pd.read_csv('data.csv', header=None, usecols=[0,1,2]) %}
+
+<ul class="list-group list-group-flush" id="notes">
+  <table class="table m-5">
+    {% for index, row in df.iterrows() %}
+    {% if ( (user.id|int==1 and manager) or df.iloc[index, 0]|int== user.id|int) %}
+    <tr>
+      {% for column in row %}
+      <td>{{ column }}</td>
+      {% endfor %}
+    </tr>
+     {% endif %}
+    {% endfor %}
+  </table>
+</ul>
+{% endwith %}
+
+
+
+
+
+
+{% endblock %}
+
