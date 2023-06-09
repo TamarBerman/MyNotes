@@ -3,6 +3,7 @@
 
 {% block content %}
 
+<!--gets user notes from db ad add their info to each line with data and delete buttons-->
 <h1 align="center">My Notes</h1>
 <ul class="list-group list-group-flush" id="notes">
   {% for note in user.notes %}
@@ -16,6 +17,7 @@
   {% endfor %}
 </ul>
 
+<!--add note form-->
 <form method="POST">
   <textarea name="note" id="note" class="form-control"></textarea>
   <br />

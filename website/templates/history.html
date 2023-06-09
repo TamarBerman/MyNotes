@@ -2,7 +2,8 @@
 {% block title %} History {% endblock %}
 
 {% block content %}
-<!--הגדרת כותרת לעמוד- אם הוא מנהל שצופה בכל היוזרים- כותרת שונה-->
+
+<!--body title-if current user is a manager means he vies all user's notes, he has a diff title -->
 {% if manager %}
 {% set head = 'All Users History' %}
 {% else %}
@@ -11,11 +12,14 @@
 
 <h1 align="center"> {{head}} (including deleted notes)</h1>
 
+<!--reading from csv file all current-user's notes and writing it to HTML table-->
 {% with df = pd.read_csv('data.csv', header=None, usecols=[0,1,2]) %}
 
 <ul class="list-group list-group-flush" id="notes">
   <table class="table m-5">
     {% for index, row in df.iterrows() %}
+    <!--in casa manager=true, means manager want to watch all users note' so it isn't continuing to the 'or' part
+        that enables only current-user's notes-->
     {% if ( (user.id|int==1 and manager) or df.iloc[index, 0]|int== user.id|int) %}
     <tr>
       {% for column in row %}
@@ -27,11 +31,6 @@
   </table>
 </ul>
 {% endwith %}
-
-
-
-
-
 
 {% endblock %}
 
