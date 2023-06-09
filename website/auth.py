@@ -47,7 +47,7 @@ def logout():
 
 @auth.route("/sign-up", methods = ['GET', 'POST'])
 def sign_up():
-    """responsible of the sign-up page
+    """responsible for the sign-up page
         if POST-get information , check user dosent exists (other-ways redirect to log-in page)
         if all data is valid adds user to DB and remember this user as the logged in user,
         then, current_user keeps info about the current logged user"""
