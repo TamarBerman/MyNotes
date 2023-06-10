@@ -20,7 +20,7 @@ Advanced Python.
 **flask_sqlalchemy**, 
 **os**
 
-use of **JINJA templating language & HTML templates**
+**JINJA templating language & HTML templates**, **Bootstrap**
 
 
 
