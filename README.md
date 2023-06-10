@@ -21,13 +21,13 @@ and so on..
   
 ## How to use:
 
-when you get into the site, you have no access to anything except Log-in and Sign-up
-you are right away navigated to the log-in page
-if your email doesn't exist you are navigated to sign-up
-after login/signup you get access to you home page, logout, and history.
-in home page you can view, add and delete your own notes
-in history page you can see all you notes details history since your first registration includes the ones that have been deleted.
-administrator has access to all-users-history in addition to his own history he can watch the history of all users.
+When you get into the site, you have no access to anything except Log-in and Sign-up.
+You are right away navigated to the log-in page.
+If your email doesn't exist you are navigated to sign-up.
+After login/signup you get access to you home page, logout, and history.
+In home page - you can view, add and delete your own notes,
+in history page - your can watch all you notes details history since your first registration, includes the ones that have been deleted.
+Administrator has access to all-users-history page - in addition to his own history he can watch the history of all users.
 
 
 ## Setup & Installation
