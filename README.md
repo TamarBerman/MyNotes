@@ -46,17 +46,17 @@ python main.py
 ## Viewing The App
 Go to http://127.0.0.1:5000
 
-## Developed by:
 
-**Tamar Berman** | Tamar3242643@gmail.com 
+<h3 align="center">* * *</h3>
+
 
 <h1 align="center">Tamar Berman</h1>
 <h3 align="center">A full stack developer with experience in web apps</h3>
 
--  All of my projects are available at [https://github.com/TamarBerman](https://github.com/TamarBerman)
+-  All of my projects are available at: [https://github.com/TamarBerman](https://github.com/TamarBerman)
 
--  How to reach me **tamar3242643@gmail.com**
-
+-  How to reach me:  **tamar3242643@gmail.com** 
+- 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/http://linkedin.com/in/tamar-berman" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="http://linkedin.com/in/tamar-berman" height="30" width="40" /></a>
