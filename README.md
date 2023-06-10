@@ -3,7 +3,7 @@
 
 A site for personal notes.
 Writing, viewing and deleting notes. Viewing the history of notes written (including those that have been deleted), an administrator can view the history of all users.
-Includes full authentication, login/registration and logout. Different access rights for certain pages, for certain users.
+Includes full authentication, different access rights for certain pages, for certain users.
 
 ## Language: 
 
