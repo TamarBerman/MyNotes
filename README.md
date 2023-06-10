@@ -34,6 +34,24 @@ In home page - you can view, add and delete your own notes,
 in history page - your can watch all you notes details history since your first registration, includes the ones that have been deleted.
 Administrator has access to all-users-history page - in addition to his own history he can watch the history of all users.
 
+## Login:
+### administrator - hardCoded:
+
+**email**: tamar3242643@gmail.com
+
+**password**: 123456789
+
+### user:
+
+**email**: t3242643@gmail.com
+
+**password**: 3242643
+
+> To change that:
+    1. [optional] - Delete 'website/data.csv' file and DB in 'instance/database.db' , you don't have to, but it will renew the project
+    2. In 'templates/base.html' change to your administrator email in line 40 - {% if user.email== 'adminidtratorEmail@gmail.com' %}
+
+
 
 ## Setup & Installation
 <sub> Make sure you have the latest version of Python installed.</sub>
