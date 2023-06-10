@@ -44,7 +44,8 @@ python main.py
 ```
 
 ## Viewing The App
-Go to @http://127.0.0.1:5000
+The background color is `#ffffff` for light mode and `#000000` for dark mode.
+Go to http://127.0.0.1:5000
 
 ## Developed by:
 
