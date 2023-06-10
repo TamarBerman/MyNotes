@@ -11,16 +11,16 @@ Advanced Python.
 
 ## Libraries and more: 
 
-Flask, 
-Pandas, 
-Re, 
-CSV, 
-werkzeug.security, 
-flask_login, 
-flask_sqlalchemy, 
-os
+**Flask**, 
+**Pandas**, 
+**Re**, 
+**CSV**, 
+**werkzeug.security**, 
+**flask_login**, 
+**flask_sqlalchemy**, 
+**os**
 
-use of JINJA templating language & HTML templates
+use of **JINJA templating language & HTML templates**
 
 
 
