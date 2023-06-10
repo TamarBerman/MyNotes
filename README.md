@@ -5,11 +5,11 @@ A site for personal notes.
 Writing, viewing and deleting notes. Viewing the history of notes written (including those that have been deleted), an administrator can view the history of all users.
 Includes full authentication, login/registration and logout. Different access rights for certain pages, for certain users.
 
-## Language: ##
+## Language: 
 
 Advanced Python.
 
-## Libraries: ##
+## Libraries: 
 
 Flask | 
 Pandas | 
@@ -19,35 +19,30 @@ werkzeug.security |
 and so on..
 
   
-## How to use: ##
+## How to use:
 
-when yoou get into the site, you have no access to anything except Log-in and Sign-up
-you are right away nevigated to the log-in page
-if your email doesnot exists you are nevigated to sign-up
-after login/signup you get access to youe home page, logout, and history.
+when you get into the site, you have no access to anything except Log-in and Sign-up
+you are right away navigated to the log-in page
+if your email doesn't exist you are navigated to sign-up
+after login/signup you get access to you home page, logout, and history.
 in home page you can view, add and delete your own notes
-in history page you can see all you notes datails history since your first registration includes the ones that have been deleted.
-adminstor has access to all-usres-history in addition to his own history he can watch the history of all users.
-
-Flask--> navigation, URLs, DB, HTML and the whole site's style, architecture and visualize.
-
-Pandas--> history, writing and reading CSV file with dataframe
-
-Hard coded--> administor
-
-werkzeug.security--> Encodes users password in the DB
-
-Re--> sigh-up validations
-
-CSV--> creating a CSV file first time
-
-flask_login--> access, login, logout, signup
-
-bootstrap--> style HTML pages
+in history page you can see all you notes details history since your first registration includes the ones that have been deleted.
+administrator has access to all-users-history in addition to his own history he can watch the history of all users.
 
 
+## Setup & Installation
+<sub> Make sure you have the latest version of Python installed.</sub>\
+ 
+>git clone <repo-url>
+> pip install -r requirements.txt
 
-## Developed by: ##
+## Running The App
+>python main.py
+
+## Viewing The App
+Go to http://127.0.0.1:5000
+
+## Developed by:
 
 **Tamar Berman** | Tamar3242643@gmail.com 
 
