@@ -32,10 +32,12 @@ administrator has access to all-users-history in addition to his own history he 
 
 ## Setup & Installation
 <sub> Make sure you have the latest version of Python installed.</sub>\
- 
->git clone <repo-url>
-> pip install -r requirements.txt
-
+```
+git clone <repo-url>
+```
+```
+ pip install -r requirements.txt
+```
 ## Running The App
 >python main.py
 
