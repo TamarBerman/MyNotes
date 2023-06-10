@@ -18,6 +18,7 @@ CSV |
 werkzeug.security | 
 and so on..
 
+  
 ## How to use: ##
 
 when yoou get into the site, you have no access to anything except Log-in and Sign-up
@@ -45,6 +46,7 @@ flask_login--> access, login, logout, signup
 bootstrap--> style HTML pages
 
 
+
 ## Developed by: ##
 
 **Tamar Berman** | Tamar3242643@gmail.com 
@@ -68,5 +70,14 @@ bootstrap--> style HTML pages
 
 
 
+Flask Web App
+Setup & Installation
+Make sure you have the latest version of Python installed.
 
+git clone <repo-url>
+pip install -r requirements.txt
+Running The App
+python main.py
+Viewing The App
+Go to http://127.0.0.1:5000
 
