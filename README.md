@@ -9,16 +9,21 @@ Includes full authentication, login/registration and logout. Different access ri
 
 Advanced Python.
 
-## Libraries: 
+## Libraries and more: 
 
-Flask | 
-Pandas | 
-Re | 
-CSV | 
-werkzeug.security | 
-and so on..
+Flask, 
+Pandas, 
+Re, 
+CSV, 
+werkzeug.security, 
+flask_login, 
+flask_sqlalchemy, 
+os
 
-  
+use of JINJA templating language & HTML templates
+
+
+
 ## How to use:
 
 When you get into the site, you have no access to anything except Log-in and Sign-up.
